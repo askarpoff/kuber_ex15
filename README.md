@@ -27,5 +27,12 @@ kubectl apply -f https://raw.githubusercontent.com/netology-code/kuber-homeworks
 ![image](https://github.com/askarpoff/kuber_ex15/assets/108946489/af4f5c5f-01c2-4df6-b47b-5b6e87a9d295)
 
 2. Выявить проблему и описать.
+
+![image](https://github.com/askarpoff/kuber_ex15/assets/108946489/95ba9fef-2510-4c78-ac48-05921fa524ea)
+фронтенд "не видит" бэкенд, т.к. они в разных namespace
+
+
 3. Исправить проблему, описать, что сделано.
+
+
 4. Продемонстрировать, что проблема решена.
