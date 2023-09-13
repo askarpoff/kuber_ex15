@@ -61,6 +61,7 @@ spec:
 ![image](https://github.com/askarpoff/kuber_ex15/assets/108946489/ef4d9cb5-1fca-41d5-afc3-b00d1dd280e2)
 
 Проверим запуском
+
 ![image](https://github.com/askarpoff/kuber_ex15/assets/108946489/1a984b88-058a-4421-bd61-eaeb8cde8ca5)
 
 Теперь __web-consumer__ может подключиться к __auth-db__
