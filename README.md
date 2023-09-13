@@ -34,7 +34,7 @@ kubectl apply -f https://raw.githubusercontent.com/netology-code/kuber-homeworks
 
 3. Исправить проблему, описать, что сделано.
 
-Добавил службу внешних имен
+Добавил службу внешних имен, в принципе порт можно не указывать там, но уж как вышло
 
 ```yaml
 apiVersion: v1
@@ -53,3 +53,14 @@ spec:
 
 
 4. Продемонстрировать, что проблема решена.
+
+Логи пода auth db
+![image](https://github.com/askarpoff/kuber_ex15/assets/108946489/4ebf07e2-94a1-4220-8044-e74c68837bb2)
+
+В логах подов web-consumer последняя запись
+![image](https://github.com/askarpoff/kuber_ex15/assets/108946489/ef4d9cb5-1fca-41d5-afc3-b00d1dd280e2)
+
+Проверим запуском
+![image](https://github.com/askarpoff/kuber_ex15/assets/108946489/1a984b88-058a-4421-bd61-eaeb8cde8ca5)
+
+Теперь __web-consumer__ может подключиться к __auth-db__
