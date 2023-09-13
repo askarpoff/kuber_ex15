@@ -34,5 +34,22 @@ kubectl apply -f https://raw.githubusercontent.com/netology-code/kuber-homeworks
 
 3. Исправить проблему, описать, что сделано.
 
+Добавил службу внешних имен
+
+```yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: auth-db
+  namespace: web
+spec:
+  type: ExternalName
+  externalName: auth-db.data.svc.cluster.local
+  ports:
+  - port: 80
+```
+
+![image](https://github.com/askarpoff/kuber_ex15/assets/108946489/56a033bb-1f16-4745-9791-335d71e569b7)
+
 
 4. Продемонстрировать, что проблема решена.
